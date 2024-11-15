@@ -1,0 +1,7 @@
+.pdf-viewer .page {
+    box-sizing: content-box;
+    border-width: 0; /* 境界線をなくす */
+    border-style: solid; /* 他の border プロパティが残っている場合のために設定 */
+    flex-shrink: 0;
+    margin: 0 auto;
+}

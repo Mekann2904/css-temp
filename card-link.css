@@ -1,0 +1,12 @@
+.auto-card-link-card {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 8em;
+    transition: 20ms ease-in 0s;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--link-external-color);
+    background: #0000008a;
+    border: solid var(--border-width) var(--divider-color);
+    border-radius: var(--radius-s);
+}
